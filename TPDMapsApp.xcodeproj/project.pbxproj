@@ -25,6 +25,7 @@
 		86DE9BFA19C9033C00ADF38E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86DE9BF919C9033C00ADF38E /* Images.xcassets */; };
 		86DE9BFD19C9033C00ADF38E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86DE9BFB19C9033C00ADF38E /* LaunchScreen.xib */; };
 		86DE9C0919C9033D00ADF38E /* TPDMapsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DE9C0819C9033D00ADF38E /* TPDMapsAppTests.m */; };
+		F49C9AE01B24145900BB9CA3 /* TPDCitymapperApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F49C9ADF1B24145900BB9CA3 /* TPDCitymapperApp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		86DE9C0219C9033D00ADF38E /* TPDMapsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPDMapsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DE9C0719C9033D00ADF38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86DE9C0819C9033D00ADF38E /* TPDMapsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TPDMapsAppTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F49C9ADE1B24145900BB9CA3 /* TPDCitymapperApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDCitymapperApp.h; sourceTree = "<group>"; };
+		F49C9ADF1B24145900BB9CA3 /* TPDCitymapperApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDCitymapperApp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 			children = (
 				86C1E5E119D1E58C00096A8C /* TPDAppleMapsApp.h */,
 				86C1E5E219D1E58C00096A8C /* TPDAppleMapsApp.m */,
+				F49C9ADE1B24145900BB9CA3 /* TPDCitymapperApp.h */,
+				F49C9ADF1B24145900BB9CA3 /* TPDCitymapperApp.m */,
 				86C1E5E319D1E58C00096A8C /* TPDGoogleMapsApp.h */,
 				86C1E5E419D1E58C00096A8C /* TPDGoogleMapsApp.m */,
 				86C1E5E519D1E58C00096A8C /* TPDMapQuestMapsApp.h */,
@@ -292,6 +297,7 @@
 				86DE9BF219C9033C00ADF38E /* AppDelegate.m in Sources */,
 				86DE9BEF19C9033C00ADF38E /* main.m in Sources */,
 				86C1E5F319D1E58C00096A8C /* TPDMapQuestMapsApp.m in Sources */,
+				F49C9AE01B24145900BB9CA3 /* TPDCitymapperApp.m in Sources */,
 				86C1E5F719D1E58C00096A8C /* TPDURLQueryItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
